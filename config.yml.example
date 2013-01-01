@@ -1,0 +1,19 @@
+# http://satococoa.github.com/blog/2012/12/08/rubymotion-tips/
+testflight:
+  api_token:  '...'
+  team_token: '...'
+  distribution_lists:
+
+identifier: com.example.testapp99999
+
+development:
+  certificate:  'iPhone Developer: ...'
+  provisioning: '/Users/.../Library/MobileDevice/Provisioning Profiles/xxx.mobileprovision'
+
+adhoc:
+  certificate:  'iPhone Distribution: foo'
+  provisioning: '/path/to/foo.mobileprovision'
+
+release:
+  certificate:  'iPhone Distribution: foo'
+  provisioning: '/path/to/foo.mobileprovision'
