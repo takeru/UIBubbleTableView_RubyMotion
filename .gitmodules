@@ -1,0 +1,3 @@
+[submodule "vendor/UIBubbleTableView"]
+	path = vendor/UIBubbleTableView
+	url = git://github.com/takeru/UIBubbleTableView.git
